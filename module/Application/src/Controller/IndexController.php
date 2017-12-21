@@ -15,9 +15,9 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-        $reader = new Reader\Xml();
-        $data = $reader->fromFile('instock.xml');
-        var_dump($data);
+//        $reader = new Reader\Xml();
+//        $data = $reader->fromFile('instock.xml');
+//        var_dump($data);
         return new ViewModel();
     }
 }
